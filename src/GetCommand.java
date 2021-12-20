@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 
-public class TestGetCommand {
+public class GetCommand {
 
     public static void main(String[] args) {
 
