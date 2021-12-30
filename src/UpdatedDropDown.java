@@ -29,5 +29,19 @@ public class UpdatedDropDown {
 
         driver.findElement(By.id("btnclosepaxoption")).click();
         System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
+        // System.out.println(driver.findElement(By.name("ctl00$mainContent$view_date2")).isEnabled());
+
+        System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
+
+        driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
+
+        System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
+
+        if(driver.findElement(By.id("Div1")).getAttribute("style").contains("1"))
+
+        {
+
+            System.out.println("its enabled");
+        }
     }
 }
